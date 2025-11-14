@@ -2,7 +2,9 @@
 
 ### **Team Name: IOT_One_Zero**
 
-📌 (images/intro.png)
+<p align="center">
+  <img src="images/intro.png" width="70%">
+</p>
 
 ---
 
