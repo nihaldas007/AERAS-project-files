@@ -195,19 +195,9 @@ Many differently-abled individuals face difficulties:
 
 ### **Driver Web UI (Text Layout)**
 
-```
- ----------------------------------------
-|        AERAS DRIVER DASHBOARD          |
- ----------------------------------------
-|  Incoming Request From User: YES       |
-|                                        |
-|   [ ACCEPT ]      [ REJECT ]           |
-|                                        |
-| Status: Waiting for Driver Action      |
- ----------------------------------------
-```
-
-📌 *(Actual Web UI Screenshot Placeholder)*
+<p align="center">
+  <img src="images/webUI.jpeg" height="350" width="400">
+</p>
 
 ---
 
