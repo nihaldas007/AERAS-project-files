@@ -193,7 +193,7 @@ Many differently-abled individuals face difficulties:
 
 ## **6. Software Components**
 
-### **Driver Web UI (Text Layout)**
+### **Driver Web UI**
 
 <p align="center">
   <img src="images/webUI.jpeg" height="450" width="400">
