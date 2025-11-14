@@ -2,7 +2,7 @@
 
 ### **Team Name: IOT_One_Zero**
 
-📌 *(Project Introduction Image will be added here)*
+📌 (images/intro.png)
 
 ---
 
