@@ -139,26 +139,7 @@ Many differently-abled individuals face difficulties:
 
 ## **5. Hardware Components**
 
-### **Circuit Diagram (Text Version)**
-
-```
-            +----------------------+
-            |     ESP32/Arduino    |
-            +----------------------+
-                 |      |      |
-                 |      |      |
-       Ultrasonic Trig  |      |
-       Ultrasonic Echo  |      |
-                        |      |
-                Laser Module    |
-                        |      |
-                     LDR Sensor |
-                        |      |
-               Green LED -------+
-               Red LED   -------+
-```
-
-**Connections**
+### **Block Loacation Hardware**
 
 **Ultrasonic Sensor (HC-SR04):**
 
@@ -167,23 +148,44 @@ Many differently-abled individuals face difficulties:
 * Trig → D5
 * Echo → D18
 
-**Laser Module:**
+**LDR Sensor:**
+
+* LDR → 34
+* 10kΩ resistor → GND
+
+**LED:**
+
+* Addressable LED → D19
+
+**OLED:**
 
 * VCC → 5V
 * GND → GND
+* SDA → 22
+* SCL → 21
 
-**LDR Sensor:**
+**Buzzer:**
 
-* LDR → A0
-* 10kΩ resistor → GND
+* buzzer → D26
 
-**LEDs:**
+**Button:**
 
-* Green → D14
-* Red → D13
+* BUTTON → D4
 
 <p align="center">
   <img src="images/diagram.jpeg" height="350" width="400">
+</p>
+### **Rickshaw Side Dashboard**
+
+**OLED:**
+
+* VCC → 5V
+* GND → GND
+* SDA → 22
+* SCL → 21
+
+<p align="center">
+  <img src="images/diagram1.jpeg" height="350" width="400">
 </p>
 
 ---
