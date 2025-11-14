@@ -4,10 +4,7 @@ By Team: IOT_One_Zero
 
 An IoT-based e-rickshaw hailing system designed for accessible transport for seniors and individuals with special needs.
 
-<!--
-(📌 Add your project's intro image here)
-Example:
--->
+<!-- Add your project's intro image here -->
 
 📋 Table of Contents
 
@@ -49,10 +46,7 @@ A clear visual feedback system.
 
 Direct IoT-based communication to the driver, bypassing verbal barriers.
 
-<!--
-(📌 Add your Problem Illustration Image here)
-Example:
--->
+<!-- Add your Problem Illustration Image here -->
 
 ✨ Features
 
@@ -74,73 +68,7 @@ The system is divided into two main parts: the User-Side Device and the Driver-S
 
 High-Level Block Diagram
 
- [ USER SIDE DEVICE ]
- -----------------------
- | Ultrasonic Sensor   |----> Detects User Presence
- | Laser Module        |----> User Gesture
- | LDR Sensor          |----> Gesture Reading
- | Microcontroller     |----> Data Processing
- | WiFi Module (ESP32) |----> Sends Request
- | LEDs (Green/Red)    |----> Feedback
- -----------------------
-            |
-            | (HTTP Request)
-            V
- -----------------------
- |  WEB SERVER (Driver) |
- -----------------------
-            |
-      (Accept / Reject)
-            |
-            V
-  (Feedback to Device)
-
-
-<!--
-(📌 Add your System Block Diagram Image here)
-Example:
--->
-
 Complete Architecture
-
-    +--------------------+
-    |    User Device     |
-    |--------------------|
-    | Ultrasonic Sensor  |
-    | Laser + LDR Input  |
-    | Microcontroller    |
-    | WiFi Communication |
-    +---------+----------+
-              |
-              | HTTP Request (JSON)
-              V
-    +-------------------------+
-    |   Cloud / Local Server  |
-    |-------------------------|
-    | Request Handling Logic  |
-    | Web Dashboard Backend   |
-    +-----------+-------------+
-                  |
-             Web Interface
-                  |
-    +-------------------------+
-    |   Driver’s Smartphone   |
-    |-------------------------|
-    | Accept / Reject Buttons |
-    +-----------+-------------+
-                  |
-                  | Response
-                  V
-    +-------------------------+
-    | User Device LEDs        |
-    |   Green / Red Feedback  |
-    +-------------------------+
-
-
-<!--
-(📌 Add your full Architecture Diagram Image here)
-Example:
--->
 
 🌊 Workflow
 
@@ -169,47 +97,6 @@ Shows "Accept" / "Reject" buttons.
 Sends the decision back to the user's device instantly.
 
 Flowchart Logic
-
-    User Approaches Device
-            |
-            V
-   Ultrasonic Sensor Detects
-            |
-    (Distance < Threshold)
-            |
-            V
-   Start 3-Second Activation Timer
-            |
-    (If user stays) -> Continue
-            |
-            V
-      Device Activated
-            |
-            V
-   User Gives Laser Gesture Input
-            |
-            V
-    Gesture Detected by LDR
-            |
-            V
-    Request Sent to Web Server
-            |
-            V
-   Driver Sees Request (Accept/Reject)
-            |
-    +----------+----------+
-    |                     |
-    V                     V
-  ACCEPT                REJECT
-    |                     |
-    V                     V
- Green LED ON          Red LED ON
-
-
-<!--
-(📌 Add your Workflow Flowchart Image here)
-Example:
--->
 
 🛠️ Hardware Components
 
@@ -247,29 +134,6 @@ Resistors, Wires, Casing
 
 Circuit Logic
 
-        +----------------------+
-        |     ESP32/Arduino    |
-        +----------------------+
-          |     |      |     |
-          |     |      |     |
-Trig (D5) -+     |      |     |
-Echo (D18)-+     |      |     |
-                 |      |     |
-LDR (A0) --------+      |     |
-                        |     |
-Green LED (D14) --------+     |
-Red LED (D13) ----------------+
-
-(Ultrasonic, Laser VCC -> 5V)
-(Ultrasonic, Laser GND -> GND)
-(LDR with 10k Resistor -> GND)
-
-
-<!--
-(📌 Add your Circuit Diagram Image here)
-Example:
--->
-
 💻 Software Components
 
 Component
@@ -294,22 +158,6 @@ JSON over HTTP
 
 Driver Web UI (Layout)
 
- ----------------------------------------
-|        AERAS DRIVER DASHBOARD          |
- ----------------------------------------
-|  Incoming Request From User: YES       |
-|                                        |
-|    [ ACCEPT ]      [ REJECT ]          |
-|                                        |
-|  Status: Waiting for Driver Action...  |
- ----------------------------------------
-
-
-<!--
-(📌 Add your Web UI Screenshot here)
-Example:
--->
-
 🚶 Use Case Scenario
 
 A differently-abled person or senior citizen arrives at the AERAS stand.
@@ -324,31 +172,35 @@ The driver presses "Accept".
 
 The user sees the Green LED light up, confirming their ride is on the way.
 
-<!--
-(📌 Add a Use Case / Project Photo here)
-Example:
--->
+<!-- Add a Use Case / Project Photo here -->
 
 🔮 Future Improvements
 
-[ ] Voice Command: Add support for voice-based ride requests.
+$$$$
 
-[ ] Mobile App: Develop a dedicated mobile app for users and drivers.
+ Voice Command: Add support for voice-based ride requests.
 
-[ ] GPS Integration: Automatically detect the nearest driver based on GPS location.
+$$$$
 
-[ ] Digital Payments: Integrate a simple digital payment system.
+ Mobile App: Develop a dedicated mobile app for users and drivers.
 
-[ ] Emergency SOS: Add a physical SOS button for emergencies.
+$$$$
+
+ GPS Integration: Automatically detect the nearest driver based on GPS location.
+
+$$$$
+
+ Digital Payments: Integrate a simple digital payment system.
+
+$$$$
+
+ Emergency SOS: Add a physical SOS button for emergencies.
 
 🏁 Conclusion
 
 AERAS creates a vital bridge between e-rickshaw drivers and differently-abled passengers, ensuring a safe, user-friendly, and automated transport request system. This project highlights how IoT technology can be leveraged to create a significant positive impact on accessibility in our communities.
 
-<!--
-(📌 Add your Team Photo or Ending Image here)
-Example:
--->
+<!-- Add your Team Photo or Ending Image here -->
 
 📄 License
 
