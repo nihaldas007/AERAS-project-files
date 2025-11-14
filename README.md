@@ -196,7 +196,7 @@ Many differently-abled individuals face difficulties:
 ### **Driver Web UI (Text Layout)**
 
 <p align="center">
-  <img src="images/webUI.jpeg" height="350" width="400">
+  <img src="images/webUI.jpeg" height="450" width="400">
 </p>
 
 ---
