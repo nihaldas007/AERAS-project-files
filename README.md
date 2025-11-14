@@ -1,17 +1,13 @@
-# AERAS-project-files
-AERAS: An IoT-based e-rickshaw hailing system designed for accessible transport for seniors and individuals with special needs.
+ACCESSIBLE E-RICKSHAW AUTOMATION SYSTEM (AERAS)
 
 By Team: IOT_One_Zero
 
 An IoT-based e-rickshaw hailing system designed for accessible transport for seniors and individuals with special needs.
 
 <!--
-
-(📌 Edit this file to add your project's intro image here)
-
+(📌 Add your project's intro image here)
+Example:
 -->
-
-<!-- Example:  -->
 
 📋 Table of Contents
 
@@ -54,12 +50,9 @@ A clear visual feedback system.
 Direct IoT-based communication to the driver, bypassing verbal barriers.
 
 <!--
-
 (📌 Add your Problem Illustration Image here)
-
+Example:
 -->
-
-<!-- Example:  -->
 
 ✨ Features
 
@@ -104,12 +97,9 @@ High-Level Block Diagram
 
 
 <!--
-
 (📌 Add your System Block Diagram Image here)
-
+Example:
 -->
-
-<!-- Example:  -->
 
 Complete Architecture
 
@@ -148,12 +138,9 @@ Complete Architecture
 
 
 <!--
-
 (📌 Add your full Architecture Diagram Image here)
-
+Example:
 -->
-
-<!-- Example:  -->
 
 🌊 Workflow
 
@@ -220,28 +207,43 @@ Flowchart Logic
 
 
 <!--
-
 (📌 Add your Workflow Flowchart Image here)
-
+Example:
 -->
-
-<!-- Example:  -->
 
 🛠️ Hardware Components
 
-Microcontroller: ESP32 / Arduino
+Component
 
-Presence Sensor: Ultrasonic Sensor (HC-SR04)
+Details
 
-Input: Laser Module & LDR (Light Dependent Resistor)
+Microcontroller
 
-Visual Feedback: LEDs (Red, Green)
+ESP32 / Arduino
 
-Connectivity: WiFi Module (built into ESP32)
+Presence Sensor
 
-Power: Power Supply / Battery
+Ultrasonic Sensor (HC-SR04)
 
-Other: Resistors, Wires, Casing
+Input
+
+Laser Module & LDR (Light Dependent Resistor)
+
+Visual Feedback
+
+LEDs (Red, Green)
+
+Connectivity
+
+WiFi Module (built into ESP32)
+
+Power
+
+Power Supply / Battery
+
+Other
+
+Resistors, Wires, Casing
 
 Circuit Logic
 
@@ -264,22 +266,31 @@ Red LED (D13) ----------------+
 
 
 <!--
-
 (📌 Add your Circuit Diagram Image here)
-
+Example:
 -->
-
-<!-- Example:  -->
 
 💻 Software Components
 
-Device Firmware: Arduino (C/C++) code for the ESP32 to manage sensors, connect to WiFi, and handle HTTP requests/responses.
+Component
 
-Web Server / Backend: (e.g., Node.js, Python/Flask, or PHP) to handle API requests from the ESP32 and serve the driver dashboard.
+Technology
 
-Driver Dashboard (Frontend): Simple HTML, CSS, and JavaScript for the driver's web interface.
+Device Firmware
 
-Communication Protocol: JSON-based communication over HTTP.
+Arduino (C/C++) code for the ESP32
+
+Web Server / Backend
+
+Node.js, Python/Flask, or PHP
+
+Driver Dashboard
+
+Simple HTML, CSS, and JavaScript
+
+Communication
+
+JSON over HTTP
 
 Driver Web UI (Layout)
 
@@ -295,12 +306,9 @@ Driver Web UI (Layout)
 
 
 <!--
-
 (📌 Add your Web UI Screenshot here)
-
+Example:
 -->
-
-<!-- Example:  -->
 
 🚶 Use Case Scenario
 
@@ -317,12 +325,9 @@ The driver presses "Accept".
 The user sees the Green LED light up, confirming their ride is on the way.
 
 <!--
-
 (📌 Add a Use Case / Project Photo here)
-
+Example:
 -->
-
-<!-- Example:  -->
 
 🔮 Future Improvements
 
@@ -341,12 +346,9 @@ The user sees the Green LED light up, confirming their ride is on the way.
 AERAS creates a vital bridge between e-rickshaw drivers and differently-abled passengers, ensuring a safe, user-friendly, and automated transport request system. This project highlights how IoT technology can be leveraged to create a significant positive impact on accessibility in our communities.
 
 <!--
-
 (📌 Add your Team Photo or Ending Image here)
-
+Example:
 -->
-
-<!-- Example:  -->
 
 📄 License
 
