@@ -176,25 +176,15 @@ The user sees the Green LED light up, confirming their ride is on the way.
 
 🔮 Future Improvements
 
-$$$$
+[ ] Voice Command: Add support for voice-based ride requests.
 
- Voice Command: Add support for voice-based ride requests.
+[ ] Mobile App: Develop a dedicated mobile app for users and drivers.
 
-$$$$
+[ ] GPS Integration: Automatically detect the nearest driver based on GPS location.
 
- Mobile App: Develop a dedicated mobile app for users and drivers.
+[ ] Digital Payments: Integrate a simple digital payment system.
 
-$$$$
-
- GPS Integration: Automatically detect the nearest driver based on GPS location.
-
-$$$$
-
- Digital Payments: Integrate a simple digital payment system.
-
-$$$$
-
- Emergency SOS: Add a physical SOS button for emergencies.
+[ ] Emergency SOS: Add a physical SOS button for emergencies.
 
 🏁 Conclusion
 
