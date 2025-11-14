@@ -145,8 +145,8 @@ Many differently-abled individuals face difficulties:
 
 * VCC → 5V
 * GND → GND
-* Trig → D5
-* Echo → D18
+* Trig → D13
+* Echo → D12
 
 **LDR Sensor:**
 
@@ -166,7 +166,7 @@ Many differently-abled individuals face difficulties:
 
 **Buzzer:**
 
-* buzzer → D26
+* BUZZER → D26
 
 **Button:**
 
