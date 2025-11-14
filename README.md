@@ -5,8 +5,6 @@
 <p align="center">
   <img src="images/intro.jpeg" height="400" width="400">
 </p>
-
-
 ---
 
 ## **1. Introduction**
