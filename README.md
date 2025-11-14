@@ -39,7 +39,6 @@ Many differently-abled individuals face difficulties:
 * Simple visual feedback (green/red LED)
 * IoT communication directly to the driver’s dashboard
 
-📌 *(Problem Illustration Image Placeholder)*
 
 ---
 
@@ -70,7 +69,6 @@ Many differently-abled individuals face difficulties:
         Feedback to Device
 ```
 
-📌 *(Block Diagram Image Placeholder)*
 
 ---
 
@@ -89,8 +87,6 @@ Many differently-abled individuals face difficulties:
 * Receives ride request
 * Displays **Accept** / **Reject** buttons
 * Sends decision back instantly
-
-📌 *(Flowchart/Block Diagram Image Placeholder)*
 
 ---
 
@@ -133,7 +129,6 @@ Many differently-abled individuals face difficulties:
  Green LED ON         Red LED ON
 ```
 
-📌 *(Flowchart Image Placeholder)*
 
 ---
 
@@ -240,7 +235,6 @@ Many differently-abled individuals face difficulties:
      +-------------------------+
 ```
 
-📌 *(Architecture Diagram Placeholder)*
 
 ---
 
@@ -254,7 +248,6 @@ Many differently-abled individuals face difficulties:
 6. Driver accepts.
 7. Green LED confirms ride request.
 
-📌 *(Use Case Image Placeholder)*
 
 ---
 
@@ -267,7 +260,6 @@ Many differently-abled individuals face difficulties:
 * Easy for drivers to operate
 * Scalable for smart-city transport
 
-📌 *(Advantages Infographic Placeholder)*
 
 ---
 
@@ -279,7 +271,6 @@ Many differently-abled individuals face difficulties:
 * Digital payment
 * Emergency SOS button
 
-📌 *(Future Updates Illustration Placeholder)*
 
 ---
 
@@ -288,6 +279,5 @@ Many differently-abled individuals face difficulties:
 **AERAS** bridges the gap between e-rickshaw drivers and differently-abled individuals, providing a safe and automated ride-request system.
 This project shows how IoT can significantly improve accessibility and independence.
 
-📌 *(Ending/Team Photo Placeholder)*
 
 ---
