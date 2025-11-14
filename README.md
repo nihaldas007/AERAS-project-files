@@ -182,7 +182,9 @@ Many differently-abled individuals face difficulties:
 * Green → D14
 * Red → D13
 
-📌 *(Circuit Diagram Image Placeholder)*
+<p align="center">
+  <img src="images/diagram.jpeg" height="350" width="400">
+</p>
 
 ---
 
