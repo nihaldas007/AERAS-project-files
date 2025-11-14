@@ -1,6 +1,6 @@
 # 🛺 ACCESSIBLE E-RICKSHAW AUTOMATION SYSTEM (AERAS)
 
-### **Team Name: IOT_One_Zero**
+### **Team Name: IOT_One_Zero **
 
 <p align="center">
   <img src="images/intro.jpeg" height="350" width="400">
