@@ -3,8 +3,9 @@
 ### **Team Name: IOT_One_Zero**
 
 <p align="center">
-  <img src="images/intro.jpeg" height = "30%" width="70%">
+  <img src="images/intro.jpeg" height="250" width="400">
 </p>
+
 
 ---
 
