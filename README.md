@@ -175,6 +175,7 @@ Many differently-abled individuals face difficulties:
 <p align="center">
   <img src="images/diagram.jpeg" height="350" width="400">
 </p>
+
 ### **Rickshaw Side Dashboard**
 
 **OLED:**
