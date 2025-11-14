@@ -80,7 +80,7 @@ A. User-Side Device
 
 Detects user presence using an ultrasonic sensor.
 
-Activates after the user stands within range for 3 seconds.
+Activates after the. user stands within range for 3 seconds.
 
 Accepts a confirmation gesture (laser input detected by LDR).
 
